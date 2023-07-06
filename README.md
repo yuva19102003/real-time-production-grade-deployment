@@ -1,6 +1,4 @@
-### real time production grade deployment using vpc [private subnets and public subnets in production]
-
-# [CREATING VPC THAT YOU CAN USE FOR SERVERS IN A PRODUCTION ENVIRONMENT TO DEPLOY PROJECTS SECURLY IN EC2]
+### [CREATING VPC THAT YOU CAN USE FOR SERVERS IN A PRODUCTION ENVIRONMENT TO DEPLOY PROJECTS SECURLY IN EC2]
     -> AWS EC2 INSTANCE
     -> AWS VPC
     ->public subnets
