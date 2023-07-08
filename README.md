@@ -6,46 +6,56 @@ This guide will walk you through the steps to deploy a real-time production-grad
 - Basic knowledge of AWS services, specifically VPC, Auto Scaling Group, Target Group, Load Balancer and SCP protocol.
 
 ## Flowchart
-    flowchart.jpg
+   <img src="flowchart.jpg"/> 
  ## Steps
 
 ### Step 1: Set Up a VPC
-
+<img src="VPC.png"/>
 1. Open the AWS Management Console.
 2. Navigate to the VPC service.
 3. Create a new VPC or use an existing one. Make sure to configure appropriate subnets, route tables, and security groups to suit your application's requirements.
 
 ### Step 2: Create an Auto Scaling Group
-
+<img src="auto scaling group.png"/>
 1. In the AWS Management Console, navigate to the Auto Scaling service.
-2. Create a new Auto Scaling Group.
-3. Configure the desired instance type, launch configuration, and other settings as per your application requirements.
-4. Specify the minimum and maximum number of instances to scale.
-5. Set up scaling policies based on metrics like CPU utilization, network traffic, or application-specific metrics.
+2. Create a new Auto Scaling Group using the templates. 
+3. <img src="Template.png"/>.
+4. Configure the desired instance type, launch configuration, and other settings as per your application requirements.
+5. Specify the minimum and maximum number of instances to scale.
+<img src="private subnet ec2 instance.png"/>
+6. Set up scaling policies based on metrics like CPU utilization, network traffic, or application-specific metrics.
+   
+### step 3: create a bastion host and transfer the key pair
+<img src="bastion host.png"/>
+- create a bastion host in public subnet of the vpc
+<img src="scp.png"/>
+-transfering the key pairs from local machine to bastion host
 
-### Step 3: Configure a Target Group
+ ### step 4: connect and run the application in EC2
+ <img src="connect to bastion host.png"/>
+- Now connect to the bastion host from local machine using SSH.
+<img src="connect to private subnet ec2.png"/>
+- Then connect that two private subnet ec2 instance from the bastion host using SSH
+<img src=""/>
+- Then import and run the application in that two private subnet ec2 instance.
 
+### Step 5: Configure a Target Group
+<img src="Target group.png"/>
 1. In the AWS Management Console, navigate to the EC2 service.
 2. Create a new Target Group.
 3. Configure the target group with appropriate target type (e.g., instance or IP), protocol, and port.
+<img src="Target group health.png"/>
 4. Define health checks to monitor the health of instances in the target group.
 
-### Step 4: Set Up a Load Balancer
 
+### Step 6: Set Up a Load Balancer
+<img src="load balancer.png"/>
 1. In the AWS Management Console, navigate to the EC2 service.
 2. Create a new Load Balancer.
 3. Choose the appropriate load balancer type (e.g., Application Load Balancer or Network Load Balancer) based on your application requirements.
 4. Configure listeners to handle incoming traffic and route it to the target group.
 5. Specify the subnets and security groups for the load balancer.
 6. Configure health checks and other advanced settings as needed.
-
-### Step 5: Configure Auto Scaling Group with Load Balancer Integration
-
-1. In the AWS Management Console, navigate to the Auto Scaling service.
-2. Edit the Auto Scaling Group created in Step 2.
-3. Configure the "Network" settings to associate the Auto Scaling Group with the VPC and subnets.
-4. Configure the "Load balancing" settings to enable integration with the Load Balancer.
-5. Specify the Target Group created in Step 3 as the "Target group for the Auto Scaling group".
 
 ### Step 6: Test and Validate
 
