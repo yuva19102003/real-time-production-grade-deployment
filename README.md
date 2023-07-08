@@ -8,7 +8,6 @@ This guide will walk you through the steps to deploy a real-time production-grad
 ## Flowchart
    <img src="flowchart1.png"/> 
 ## Demo
-   <img src="km_20230708_1080p_30f_20230708_091816.mp4"/>
    
 ## Steps
 
