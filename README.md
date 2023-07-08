@@ -5,14 +5,14 @@ This guide will walk you through the steps to deploy a real-time production-grad
 ## Prerequisites
 - Basic knowledge of AWS services, specifically VPC, Auto Scaling Group, Target Group, Load Balancer and SCP protocol.
 
-# Demo
+## Demo
 
 https://github.com/yuva19102003/real-time-production-grade-deployment/assets/116803074/f5fc81c6-013a-41d8-86f4-47f6e5592a15
 
 ## Flowchart
    <img src="flowchart1.png"/> 
    
-## Steps
+# Steps
 
 ### Step 1: Set Up a VPC
 <img src="VPC.png"/>
