@@ -3,13 +3,11 @@
 This guide will walk you through the steps to deploy a real-time production-grade application in a Virtual Private Cloud (VPC) using Amazon Web Services (AWS) resources, including an Auto Scaling Group, Target Group, and Load Balancer. This setup ensures high availability, scalability, and fault tolerance for your application.
 
 ## Prerequisites
-Before getting started, ensure that you have the following:
+- Basic knowledge of AWS services, specifically VPC, Auto Scaling Group, Target Group, Load Balancer and SCP protocol.
 
-- An AWS account
-- Basic knowledge of AWS services, specifically VPC, Auto Scaling Group, Target Group, and Load Balancer.
-- An application that you want to deploy (e.g., a web application, microservices, or API).
-
-## Steps
+## Flowchart
+    flowchart.jpg
+ ## Steps
 
 ### Step 1: Set Up a VPC
 
