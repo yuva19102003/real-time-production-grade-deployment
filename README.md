@@ -6,7 +6,7 @@ This guide will walk you through the steps to deploy a real-time production-grad
 - Basic knowledge of AWS services, specifically VPC, Auto Scaling Group, Target Group, Load Balancer and SCP protocol.
 
 ## Flowchart
-   <img src="flowchart.jpg"/> 
+   <img src="flowchart1.jpg"/> 
  ## Steps
 
 ### Step 1: Set Up a VPC
@@ -36,7 +36,6 @@ This guide will walk you through the steps to deploy a real-time production-grad
 - Now connect to the bastion host from local machine using SSH.
 <img src="connect to private subnet ec2.png"/>
 - Then connect that two private subnet ec2 instance from the bastion host using SSH
-<img src=""/>
 - Then import and run the application in that two private subnet ec2 instance.
 
 ### Step 5: Configure a Target Group
