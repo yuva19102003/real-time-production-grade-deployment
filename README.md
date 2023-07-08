@@ -8,7 +8,7 @@ This guide will walk you through the steps to deploy a real-time production-grad
 ## Flowchart
    <img src="flowchart1.png"/> 
 ## Demo
-("https://github.com/yuva19102003/real-time-production-grade-deployment/assets/116803074/7b17828d-6ffa-4698-a55c-336dfa557cc5")
+https://github.com/yuva19102003/real-time-production-grade-deployment/issues/1#issue-1795095730
    
 ## Steps
 
