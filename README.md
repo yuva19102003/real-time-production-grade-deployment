@@ -8,7 +8,7 @@ This guide will walk you through the steps to deploy a real-time production-grad
 ## Flowchart
    <img src="flowchart1.png"/> 
    
-#### Steps
+## Steps
 
 ### Step 1: Set Up a VPC
 <img src="VPC.png"/>
