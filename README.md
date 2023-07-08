@@ -9,6 +9,8 @@ This guide will walk you through the steps to deploy a real-time production-grad
    <img src="flowchart1.png"/> 
 ## Demo
 
+https://github.com/yuva19102003/real-time-production-grade-deployment/assets/116803074/f5fc81c6-013a-41d8-86f4-47f6e5592a15
+
 [![Watch the video](https://github.com/yuva19102003/real-time-production-grade-deployment/assets/116803074/b0b1639d-58e6-4544-a780-ccb1338c70cc)]
 
    
@@ -70,3 +72,7 @@ This guide will walk you through the steps to deploy a real-time production-grad
 ## Conclusion
 
 By following these steps, you have successfully deployed a real-time production-grade application in a VPC using AWS resources like Auto Scaling Group, Target Group, and Load Balancer. This setup ensures high availability, scalability, and fault tolerance for your application, allowing it to handle increased traffic and scale as needed. Feel free to customize and optimize this setup further based on your specific requirements.
+
+
+
+
