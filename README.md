@@ -1,4 +1,5 @@
 # Real-time Production Grade Deployment in VPC with Auto Scaling Group, Target Group, and Load Balancer
+----
 
 This guide will walk you through the steps to deploy a real-time production-grade application in a Virtual Private Cloud (VPC) using Amazon Web Services (AWS) resources, including an Auto Scaling Group, Target Group, and Load Balancer. This setup ensures high availability, scalability, and fault tolerance for your application.
 
@@ -73,6 +74,6 @@ https://github.com/yuva19102003/real-time-production-grade-deployment/assets/116
 
 By following these steps, you have successfully deployed a real-time production-grade application in a VPC using AWS resources like Auto Scaling Group, Target Group, and Load Balancer. This setup ensures high availability, scalability, and fault tolerance for your application, allowing it to handle increased traffic and scale as needed. Feel free to customize and optimize this setup further based on your specific requirements.
 
-
+----
 
 
