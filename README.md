@@ -13,7 +13,7 @@ This guide will walk you through the steps to deploy a real-time production-grad
 ## Flowchart
    <img src="flowchart1.png"/>
 
-[YouTube video link](https://youtu.be/XnQLcjPPNuQ)
+[🔗YouTube video link✌🏻](https://youtu.be/XnQLcjPPNuQ)
  
    
 # Steps
