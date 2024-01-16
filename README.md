@@ -8,12 +8,12 @@ This guide will walk you through the steps to deploy a real-time production-grad
  
 ## Demo
 
-[Demo GitHub repo link 👉🏻](https://github.com/yuva19102003/real-time-production-grade-deployment/assets/116803074/f5fc81c6-013a-41d8-86f4-47f6e5592a15)
+[`Demo GitHub repo link 👉🏻`](https://github.com/yuva19102003/real-time-production-grade-deployment/assets/116803074/f5fc81c6-013a-41d8-86f4-47f6e5592a15)
 
 ## Flowchart
    <img src="flowchart1.png"/>
 
-[🔗YouTube video link✌🏻](https://youtu.be/XnQLcjPPNuQ)
+[`🔗YouTube video link✌🏻`](https://youtu.be/XnQLcjPPNuQ)
  
    
 # Steps
